@@ -4,7 +4,7 @@
       <v-col cols="12" sm="8" md="4">
         <v-card
           class="pa-6 transparent-card"
-          elevation="2"
+          elevation="0"
           outlined
           shaped
           style="margin-top:100px;height:500px;"
