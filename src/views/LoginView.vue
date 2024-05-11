@@ -56,9 +56,11 @@
           <v-card-actions>
             <center>
             <router-link to="/new-account" class="primary--text">
+              <center>
                 <v-btn text color="primary" style="font-size:16px;">
                    don't have account?new account
                 </v-btn>
+                </center>
             </router-link><br></center>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
           </v-card-actions>
