@@ -13,8 +13,8 @@
               src="https://www.gstatic.com/mobilesdk/160505_mobilesdk/logo/2x/firebase_28dp.png"
               max-height="50"
               class="mx-auto"
-            ></v-img>
-            <p class="" style="text-align:center;font-size:16px;">Create new account </p>
+            ></v-img><br>
+            <p class="" style="text-align:center;font-size:17px;">Create new account </p>
           <br>  <v-card-text>
               <v-form @submit.prevent="login">
                 <v-text-field
@@ -59,7 +59,7 @@
                   </template>
                 </v-btn>
               </v-form>
-            </v-card-text>
+            </v-card-text><br>
             <v-card-actions>
               <v-spacer></v-spacer>
               <router-link to="/" class="primary--text">
