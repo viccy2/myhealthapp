@@ -60,14 +60,17 @@
                 </v-btn>
               </v-form>
             </v-card-text><br>
-            <v-card-actions>
-              <v-spacer></v-spacer>
-              <router-link to="/login" class="primary--text">
-                <v-btn text color="primary" style="font-size:12px;">
-                    Already have an account? Sign-in
+                     <p>
+            
+            <router-link to="/login" class="primary--text">
+              <center>
+                <v-btn text color="primary" style="font-size:12px;text-align:center;">
+                   already have account? sign in
                 </v-btn>
-            </router-link>
-            </v-card-actions>
+                </center>
+            </router-link><br>
+            <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
+          </p><br><br>
           </v-card>
         </v-col>
       </v-row>
