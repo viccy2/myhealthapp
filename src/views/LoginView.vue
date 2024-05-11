@@ -53,6 +53,7 @@
               </v-btn>
             </v-form>
           </v-card-text><br>
+          <center>
           <v-card-actions>
             
             <router-link to="/new-account" class="primary--text">
@@ -64,6 +65,7 @@
             </router-link><br>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
           </v-card-actions><br><br>
+            </center>
         </v-card>
       </v-col>
     </v-row>
