@@ -7,7 +7,7 @@
             elevation="0"
             outlined
             shaped
-            style="margin-top:20px;"
+            style="margin-top:40px;"
           >
             <v-img
               src="https://www.gstatic.com/mobilesdk/160505_mobilesdk/logo/2x/firebase_28dp.png"
