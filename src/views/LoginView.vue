@@ -7,7 +7,7 @@
           elevation="2"
           outlined
           shaped
-          style="margin-top:100px;"
+          style="margin-top:100px;height:100px;"
         >
           <v-img
             src="https://www.gstatic.com/mobilesdk/160505_mobilesdk/logo/2x/firebase_28dp.png"
@@ -23,7 +23,7 @@
                 outlined
                 prepend-icon="mdi-account-outline"
                 required
-              ></v-text-field>
+              ></v-text-field><br>
               <v-text-field
                 v-model="password"
                 label="Password"
@@ -31,7 +31,7 @@
                 outlined
                 prepend-icon="mdi-lock-outline"
                 required
-              ></v-text-field>
+              ></v-text-field><br><br>
               <v-btn
                 color="primary"
                 class="white--text"
