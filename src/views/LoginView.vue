@@ -54,7 +54,7 @@
             </v-form>
           </v-card-text><br>
           <v-card-actions>
-            <v-spacer></v-spacer>
+            <v-spacers></v-spacers>
             <router-link to="/new-account" class="primary--text">
                 <v-btn text color="primary" style="font-size:16px;">
                    don't have account?new account
