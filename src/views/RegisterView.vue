@@ -62,7 +62,7 @@
             </v-card-text><br>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <router-link to="/" class="primary--text">
+              <router-link to="/login" class="primary--text">
                 <v-btn text color="primary" style="font-size:12px;">
                     Already have an account? Sign-in
                 </v-btn>
