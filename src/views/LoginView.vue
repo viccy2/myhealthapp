@@ -14,7 +14,7 @@
             max-height="50"
             class="mx-auto"
           ></v-img><br>
-          <p class="text-center" style="font-size:17px;text-align:center;"> Enter your details below to sign in. </p>
+          <p class="text-center" style="font-size:17px;text-align:center;"> ENTER YOUR DETAILS BELOW TO SIGN IN. </p>
           <br><v-card-text>
             <v-form @submit.prevent="login">
               <v-text-field
