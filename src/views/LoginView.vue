@@ -15,7 +15,7 @@
             class="mx-auto"
           ></v-img><br>
           <p class="text-center" style="font-size:17px;text-align:center;"> Enter your details below to sign in. </p>
-          <v-card-text>
+          <br><v-card-text>
             <v-form @submit.prevent="login">
               <v-text-field
                 v-model="email"
@@ -52,11 +52,11 @@
                 </template>
               </v-btn>
             </v-form>
-          </v-card-text>
+          </v-card-text><br>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <router-link to="/" class="primary--text">
-                <v-btn text color="primary">
+            <router-link to="/new-account" class="primary--text">
+                <v-btn text color="primary" style="font-size:16px;">
                     create new account
                 </v-btn>
             </router-link><br>
