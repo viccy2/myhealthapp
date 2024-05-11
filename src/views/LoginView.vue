@@ -57,7 +57,7 @@
             <v-spacer></v-spacer>
             <router-link to="/new-account" class="primary--text">
                 <v-btn text color="primary" style="font-size:16px;">
-                    create new account
+                   don't have account?new account
                 </v-btn>
             </router-link><br>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
