@@ -7,14 +7,14 @@
             elevation="0"
             outlined
             shaped
-            style="margin-top:50px;"
+            style="margin-top:30px;"
           >
             <v-img
               src="https://www.gstatic.com/mobilesdk/160505_mobilesdk/logo/2x/firebase_28dp.png"
               max-height="50"
               class="mx-auto"
             ></v-img><br>
-            <p class="" style="text-align:center;font-size:17px;">Create new account </p>
+            <p class="" style="text-align:center;font-size:17px;">Enter your details below to create account. </p>
           <br>  <v-card-text>
               <v-form @submit.prevent="login">
                 <v-text-field
