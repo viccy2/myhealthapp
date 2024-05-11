@@ -4,7 +4,7 @@
         <v-col cols="12" sm="8" md="4">
           <v-card
             class="pa-6 transparent-card"
-            elevation="2"
+            elevation="0"
             outlined
             shaped
             style="margin-top:50px;"
@@ -14,8 +14,8 @@
               max-height="50"
               class="mx-auto"
             ></v-img>
-            <v-card-title class="headline">New Account </v-card-title>
-            <v-card-text>
+            <p class="" style="text-align:center;font-size:16px;">Create new account </p>
+          <br>  <v-card-text>
               <v-form @submit.prevent="login">
                 <v-text-field
                   v-model="email"
@@ -23,14 +23,14 @@
                   outlined
                   prepend-icon="mdi-account-outline"
                   required
-                ></v-text-field>
+                ></v-text-field><br>
                 <v-text-field
                   v-model="email"
                   label="Email"
                   outlined
                   prepend-icon="mdi-email-outline"
                   required
-                ></v-text-field>
+                ></v-text-field><br>
                 <v-text-field
                   v-model="password"
                   label="Password"
@@ -38,7 +38,7 @@
                   outlined
                   prepend-icon="mdi-lock-outline"
                   required
-                ></v-text-field>
+                ></v-text-field><br><br>
                 <v-btn
                   color="primary"
                   class="white--text"
