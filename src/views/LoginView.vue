@@ -56,7 +56,7 @@
           
           <p>
             
-            <router-link to="/new-account" class="primary--text">
+            <router-link to="/" class="primary--text">
               <center>
                 <v-btn text color="primary" style="font-size:12px;text-align:center;">
                    don't have account? create new account
