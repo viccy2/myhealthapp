@@ -54,12 +54,12 @@
             </v-form>
           </v-card-text><br>
           <v-card-actions>
-            <v-spacers></v-spacers>
+            <center>
             <router-link to="/new-account" class="primary--text">
                 <v-btn text color="primary" style="font-size:16px;">
                    don't have account?new account
                 </v-btn>
-            </router-link><br>
+            </router-link><br></center>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
           </v-card-actions>
         </v-card>
