@@ -68,9 +68,9 @@
                    already have account? sign in
                 </v-btn>
                 </center>
-            </router-link><br>
+            </router-link>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
-          </p><br><br>
+          </p><br>
           </v-card>
         </v-col>
       </v-row>
