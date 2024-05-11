@@ -14,8 +14,8 @@
             max-height="50"
             class="mx-auto"
           ></v-img><br>
-          <p class="text-center" style="font-size:16px;text-align:center;"> Enter details to sign in. </p>
-         <br>  <v-card-text>
+          <p class="text-center" style="font-size:17px;text-align:center;"> Enter your details below to sign in. </p>
+          <v-card-text>
             <v-form @submit.prevent="login">
               <v-text-field
                 v-model="email"
@@ -57,7 +57,7 @@
             <v-spacer></v-spacer>
             <router-link to="/" class="primary--text">
                 <v-btn text color="primary">
-                    Don't have an account? Create
+                    create new account
                 </v-btn>
             </router-link><br>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
