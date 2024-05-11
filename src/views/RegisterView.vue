@@ -14,7 +14,7 @@
               max-height="50"
               class="mx-auto"
             ></v-img><br>
-            <p class="" style="text-align:center;font-size:17px;">Enter your details below to create account. </p>
+            <p class="" style="text-align:center;font-size:17px;">ENTER YOUR DETAILS TO CREATE ACCOUNT.</p>
           <br>  <v-card-text>
               <v-form @submit.prevent="login">
                 <v-text-field
