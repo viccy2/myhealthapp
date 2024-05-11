@@ -59,7 +59,7 @@
             <router-link to="/new-account" class="primary--text">
               <center>
                 <v-btn text color="primary" style="font-size:16px;text-align:center;">
-                   don't have account?new account
+                   don't have account?create account
                 </v-btn>
                 </center>
             </router-link><br>
