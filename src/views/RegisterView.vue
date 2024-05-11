@@ -70,7 +70,7 @@
                 </center>
             </router-link>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
-          </p><br>
+          </p>
           </v-card>
         </v-col>
       </v-row>
