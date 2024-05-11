@@ -57,11 +57,11 @@
           <p>
             
             <router-link to="/new-account" class="primary--text">
-              
+              <center>
                 <v-btn text color="primary" style="font-size:16px;text-align:center;">
-                   create new account
+                   creates new account
                 </v-btn>
-                
+                </center>
             </router-link><br>
             <!-- <v-btn text color="primary">Forgot password?</v-btn> -->
           </p><br><br>
