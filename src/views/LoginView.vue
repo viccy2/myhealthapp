@@ -7,14 +7,14 @@
           elevation="0"
           outlined
           shaped
-          style="margin-top:100px;height:500px;"
+          style="margin-top:80px;height:500px;"
         >
           <v-img
             src="https://www.gstatic.com/mobilesdk/160505_mobilesdk/logo/2x/firebase_28dp.png"
             max-height="50"
             class="mx-auto"
-          ></v-img>
-          <p class="text-center" style="font-size:10px;text-align:center;"> Enter details to sign in. </p>
+          ></v-img><br>
+          <p class="text-center" style="font-size:16px;text-align:center;"> Enter details to sign in. </p>
          <br>  <v-card-text>
             <v-form @submit.prevent="login">
               <v-text-field
